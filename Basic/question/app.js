@@ -105,7 +105,7 @@ console.log(arr10);
 // Q3-2. filter함수와 arr3을 활용하여 [1,3,5]출력하기 (Hint:홀수와 짝수 구분은 "%2"를 활용)
 
 var odd = arr.filter(function(data) {
-  return data % 2 == 1 ? true : false;
+    return data % 2 == 1 ? true : false;
 })
 
 console.log(odd);
@@ -184,11 +184,12 @@ console.log("Q6 반복문 연습문제2");
 ******
 (Hint:console.log(" ")로 빈칸 표현)
 */
-    for (var i = 1; i <= 5; i++) {
-        var space = " ".repeat(5 - i);
+    for (var i = 1; i <5; i++) {
+        var space = " ".repeat(6 - i);
         var stars = "*".repeat(i);
         console.log(space + stars);
     }
+    console.log("*".repeat(6));
 
 
 
